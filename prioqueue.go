@@ -1,17 +1,13 @@
-// Copyright 2015 Adriano J. Holanda. All rights reserved.
-// Use of this source code is governed by MIT license
-// that can be found in the LICENSE file.
+// Package adt implements some fundamental abstract data types.
 
-// Implementation of min-max priority queue
+package adt
+
+// Implementation min-max priority queue
+type PQType bool
 
 // MAX sets a priority queue where greater values
 // are related to greater priorities.
 // MIN sets lower values related to greater priorities.
-
-package adt
-
-type PQType bool
-
 const (
 	MIN PQType = false
 	MAX = true
