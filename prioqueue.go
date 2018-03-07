@@ -28,7 +28,7 @@ func (h *HeapNode) Index() int {
 	return h.index
 }
 
-// Retriece the priority of heap node h
+// Retrieve the priority of heap node h
 func (h *HeapNode) Prio() int {
 	return h.prio
 }
